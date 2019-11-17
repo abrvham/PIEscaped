@@ -4,7 +4,7 @@ VMware version of EPITA's PIE (Archlinux i3) with compatibility patches
 ## Information
 PIEscaped est une version VMware du système d'exploitation du PIE en 2019-2020 (ArchLinux i3-wm), avec plusieurs patchs de compatibilité (et un script de push moulinette).
 
-Tous les paquets ont été downgradés (y compris le kernel et la libc) pour correspondre à leurs versions dans l'état de l'image du PIE tel que défini par le CRI ([voir ici](https://static.cri.epita.fr/pie/pkg-ver.html)).
+Tous les paquets ont été downgradés (y compris le kernel et la libc) pour correspondre à leur version dans l'état de l'image du PIE tel que défini par le CRI ([voir ici](https://static.cri.epita.fr/pie/pkg-ver.html)).
 
 Open-vm-tools est pré-installé.
 Testé avec VMware Fusion 11.5
@@ -20,7 +20,7 @@ Testé avec VMware Fusion 11.5
 - i3lock: Suppression d'un appel à un service à la sortie d'i3lock, et non présent dans PIEscaped ([voir fork](https://github.com/abrvham/i3lock-PIEscaped/))
 
 ## Download and installation
-1) Téléchargez le fichier .zip à l'adresse http://dealzy.io/piescaped.html
+1) Téléchargez le fichier .zip à l'adresse https://dealzy.io/piescaped
 2) Dézippez et ouvrez le fichier PIEscaped.vmx
 3) Pour autoriser le partage de dossiers host/guest, [voir la doc VMware](https://docs.vmware.com/fr/VMware-Fusion/8.0/com.vmware.fusion.using.doc/GUID-7F068DD6-4F3D-4B3C-B468-81AA9C43A197.html)
 
@@ -37,7 +37,7 @@ Testé avec VMware Fusion 11.5
   avec * un identifiant de tag. Cette commande va automatiquement commit, créer un tag "submission/CURRDIR-* ", puis push.
   
 ## Information
-Certains paquets non nécéssaires (ex Gimp) du PIE sont volontairement absents de PIEscaped afin de réduire la taille du volume. Ils peuvent cependant être installés à tout moment avec pacman. **Leurs versions sera alors automatiquement la même que celle du PIE**. Si vous pensez qu'il devrait être installé de base, ouvrez un ticket.
+Certains paquets non nécéssaires (ex Gimp) du PIE sont volontairement absents de PIEscaped afin de réduire la taille du volume. Ils peuvent cependant être installés à tout moment avec pacman. **Leur version sera alors automatiquement la même que celle du PIE**. Si vous pensez qu'il devrait être installé de base, ouvrez un ticket.
 Deux trois autres paquets sont présents sur PIEscaped et ne le sont pas sur le PIE (exemple: lldb, gtkmm3). Ils ont été installés pour permettre la compatibilité avec VMware ou car ces paquets peuvent être utile. Tous les paquets installés sur PIEscaped sont visibles dans le fichier *pkg* du repo 
 
 PIEscaped n'est pas un dump du PIE, c'est une version d'ArchLinux dont le but est d'être le plus semblable possible aux machines du campus.
