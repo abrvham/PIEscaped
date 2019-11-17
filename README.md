@@ -1,6 +1,6 @@
 # PIEscaped 2019.1
 VMware version of EPITA's PIE (Archlinux i3) with compatibility patches
-
+![](https://raw.githubusercontent.com/abrvham/PIEscaped/master/illustration.png)
 ## Information
 PIEscaped est une version VMware du système d'exploitation du PIE en 2019-2020 (ArchLinux i3-wm), avec plusieurs patchs de compatibilité (et un script de push moulinette).
 
