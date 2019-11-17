@@ -20,9 +20,10 @@ Testé avec VMware Fusion 11.5
 - i3lock: Suppression d'un appel à un service à la sortie d'i3lock, et non présent dans PIEscaped ([voir fork](https://github.com/abrvham/i3lock-PIEscaped/))
 
 ## Download and installation
-1) Téléchargez le fichier .zip à l'adresse https://dealzy.io/PIEscaped2019-1.zip
+1) Téléchargez le fichier .zip à l'adresse https://dealzy.io/piescaped
 2) Dézippez et ouvrez le fichier PIEscaped.vmx
 3) Pour autoriser le partage de dossiers host/guest, [voir la doc VMware](https://docs.vmware.com/fr/VMware-Fusion/8.0/com.vmware.fusion.using.doc/GUID-7F068DD6-4F3D-4B3C-B468-81AA9C43A197.html)
+
 ## Usage
 - Login/password:
   *root/epita*
@@ -36,6 +37,6 @@ Testé avec VMware Fusion 11.5
   avec * un identifiant de tag. Cette commande va automatiquement commit, créer un tag "submission/CURRDIR-* ", puis push.
   
 ## Information
-Certains paquets (non nécéssaires, ex Gimp) du PIE sont volontairement absents de PIEscaped afin de réduire la taille du volume. Ils peuvent cependant être installés à tout moment avec pacman. **Leurs versions sera alors automatiquement la même que celle du PIE**
+Certains paquets non nécéssaires (ex Gimp) du PIE sont volontairement absents de PIEscaped afin de réduire la taille du volume. Ils peuvent cependant être installés à tout moment avec pacman. **Leurs versions sera alors automatiquement la même que celle du PIE**. Si vous pensez qu'il devrait être installé de base, ouvrez un ticket.
 
 PIEscaped n'est pas un dump du PIE, c'est une version d'ArchLinux dont le but est d'être le plus semblable possible aux machines du campus.
