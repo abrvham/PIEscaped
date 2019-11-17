@@ -38,6 +38,7 @@ Testé avec VMware Fusion 11.5
   
 ## Information
 Certains paquets non nécéssaires (ex Gimp) du PIE sont volontairement absents de PIEscaped afin de réduire la taille du volume. Ils peuvent cependant être installés à tout moment avec pacman. **Leurs versions sera alors automatiquement la même que celle du PIE**. Si vous pensez qu'il devrait être installé de base, ouvrez un ticket.
+Deux trois autres paquets sont présents sur PIEscaped et ne le sont pas sur le PIE (exemple: lldb, gtkmm3). Ils ont été installés pour permettre la compatibilité avec VMware ou car ces paquets peuvent être utile. Tous les paquets installés sur PIEscaped sont visibles dans le fichier *pkg* du repo 
 
 PIEscaped n'est pas un dump du PIE, c'est une version d'ArchLinux dont le but est d'être le plus semblable possible aux machines du campus.
 
