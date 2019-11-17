@@ -20,7 +20,7 @@ Testé avec VMware Fusion 11.5
 - i3lock: Suppression d'un appel à un service à la sortie d'i3lock, et non présent dans PIEscaped ([voir fork](https://github.com/abrvham/i3lock-PIEscaped/))
 
 ## Download and installation
-1) Téléchargez le fichier .zip à l'adresse https://dealzy.io/piescaped
+1) Téléchargez le fichier .zip à l'adresse http://dealzy.io/piescaped.html
 2) Dézippez et ouvrez le fichier PIEscaped.vmx
 3) Pour autoriser le partage de dossiers host/guest, [voir la doc VMware](https://docs.vmware.com/fr/VMware-Fusion/8.0/com.vmware.fusion.using.doc/GUID-7F068DD6-4F3D-4B3C-B468-81AA9C43A197.html)
 
