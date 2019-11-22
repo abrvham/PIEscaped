@@ -48,4 +48,5 @@ PIEscaped n'est pas un dump du PIE, c'est une version d'ArchLinux dont le but es
  - Added graphviz 2.40.1-19.
  - Deleted lldb to better match original PIE (can be installed with the "pacman -S lldb" command)
 
-**2019.1** (17.11.19): initial version
+**2019.1** (17.11.19): 
+- Public release
