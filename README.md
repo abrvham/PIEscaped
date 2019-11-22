@@ -1,4 +1,4 @@
-# PIEscaped 2019.1
+# PIEscaped 2019.2
 VMware version of EPITA's PIE (Archlinux i3) with compatibility patches
 ![](https://raw.githubusercontent.com/abrvham/PIEscaped/master/illustration.png)
 ## Information
@@ -43,4 +43,8 @@ Deux trois autres paquets sont présents sur PIEscaped et ne le sont pas sur le 
 PIEscaped n'est pas un dump du PIE, c'est une version d'ArchLinux dont le but est d'être le plus semblable possible aux machines du campus.
 
 ## Changelog
+**2019.2** (22.11.19): 
+ - Added doxygen 1.8.16-1.
+ - Added graphviz 2.40.1-19.
+ - Deleted lldb to better match original PIE (can be installed with the "pacman -S lldb" command)
 **2019.1** (17.11.19): initial version
