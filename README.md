@@ -21,7 +21,7 @@ Testé avec VMware Fusion 11.5
 
 ## Download and installation
 1) Téléchargez le fichier .zip à l'adresse https://dealzy.io/piescaped
-2) Dézippez et ouvrez le fichier PIEscaped.vmx
+2) Dézippez et ouvrez le fichier PIEscaped.vmx (en sélectionnant "je l'ai copié" si demandé)
 3) Pour autoriser le partage de dossiers host/guest, [voir la doc VMware](https://docs.vmware.com/fr/VMware-Fusion/8.0/com.vmware.fusion.using.doc/GUID-7F068DD6-4F3D-4B3C-B468-81AA9C43A197.html)
 
 ## Usage
