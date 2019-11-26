@@ -1,4 +1,4 @@
-# PIEscaped 2019.2
+# PIEscaped 2019.3
 VMware version of EPITA's PIE (Archlinux i3) with compatibility patches
 ![](https://raw.githubusercontent.com/abrvham/PIEscaped/master/illustration.png)
 ## Information
@@ -38,11 +38,14 @@ Testé avec VMware Fusion 11.5
   
 ## Information
 Certains paquets non nécéssaires (ex Gimp) du PIE sont volontairement absents de PIEscaped afin de réduire la taille du volume. Ils peuvent cependant être installés à tout moment avec pacman. **Leur version sera alors automatiquement la même que celle du PIE**. Si vous pensez qu'il devrait être installé de base, ouvrez un ticket.
-Deux trois autres paquets sont présents sur PIEscaped et ne le sont pas sur le PIE (exemple: lldb, gtkmm3). Ils ont été installés pour permettre la compatibilité avec VMware ou car ces paquets peuvent être utile. Tous les paquets installés sur PIEscaped sont visibles dans le fichier *pkg* du repo 
+Deux trois autres paquets sont présents sur PIEscaped et ne le sont pas sur le PIE (exemple: lldb, gtkmm3). Ils ont été installés pour permettre la compatibilité avec VMware ou car ces paquets peuvent être utiles. Tous les paquets installés sur PIEscaped sont visibles dans le fichier *pkg* du repo 
 
 PIEscaped n'est pas un dump du PIE, c'est une version d'ArchLinux dont le but est d'être le plus semblable possible aux machines du campus.
 
 ## Changelog
+**2019.3** (26.11.19): 
+ - Added python termcolor 1.1.0.
+
 **2019.2** (22.11.19): 
  - Added doxygen 1.8.16-1.
  - Added graphviz 2.40.1-19.
